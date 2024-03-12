@@ -1,14 +1,14 @@
 # Title
 
-**Type:** Master's Thesis / Bachelor's Thesis
+**Type:** Bachelor's Thesis
 
-**Author:** xxx
+**Author:** Florian Christen
 
 **Supervisor:** xxx (only if different from the 1st or the 2nd Examiner)
 
-**1st Examiner:** xxx 
+**1st Examiner:** Prof. Dr. Lessmann    
 
-**2nd Examiner:** xxx 
+**2nd Examiner:** Prof. Dr. Fabian
 
 [Insert here a figure explaining your approach or main results]
 
