@@ -55,6 +55,34 @@ Um die Resultate in Form der Plots nachzustellen können die CSV-Dateien welche 
 
 ## Results
 
-Die graphischen Repräsentationen der Ergebnisse entnehmen Sie bitte den entsprechenden Bild Dateien.
+Tabellarische Repräsentation der Ergebnisse:
+![ResultTable](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/ef3a0b85-2365-4849-9286-ed82a080a7c0)
 
+MAPE nach ansteigendem Filtergrad des Kalman Filters:
+
+![MAPEKalmanMAFC](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/7722c94c-1916-4a37-b6f8-d007ee591468)
+![MAPEKalmanESFC](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/e3ea2dc2-1ebe-440e-8bfa-64f73a56bbb1)
+
+MAPE nach ansteigendem Filtergrad des SES Filters:
+
+![SESFilterSESFC](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/03a7d59c-5401-4cea-aaef-f4c215dbc35b)
+![SESFilterMAFC](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/4fb17053-8140-4868-a32f-794493c1da84)
+
+MAPE nach ansteigendem Filtergrad des MA Filters:
+
+![MAFilterMAFC](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/036bcef8-44cd-414a-a96c-f9a9a0646c8c)
+![MAFilter ESFC](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/ea2c2979-469b-4e7c-ad40-b44c4e2da169)
+
+Zusätzlich dazu die Forecasts der optimalen Filtergrade im Vergleich zur Testreihe:
+
+![SEoptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/4825dea2-dcca-4768-9820-ad6ca0c796ec)
+![MAoptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/900d088c-d63a-4301-b3ef-6d8b6fea2929)
+![KalmanOptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/330cd415-2c6f-41db-a0cf-898ae2a94548)
 ## Project structure
+
+Alle .R Files der Filtertypen funktionieren vollkommen eigenständig.
+Vorgeschlagene Struktur:
+
+Kalman Filter 2.R,
+Moving average Filter.R.
+Simple exponential smoother.R.
