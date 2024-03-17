@@ -75,12 +75,17 @@ MAPE nach ansteigendem Filtergrad des MA Filters:
 
 Zusätzlich dazu die Forecasts der optimalen Filtergrade im Vergleich zur Testreihe:
 
-![SEoptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/4825dea2-dcca-4768-9820-ad6ca0c796ec)
-![MAoptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/900d088c-d63a-4301-b3ef-6d8b6fea2929)
+Kalman Filter:
 ![KalmanOptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/330cd415-2c6f-41db-a0cf-898ae2a94548)
+
+Moving Average Filter:
+![MAoptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/900d088c-d63a-4301-b3ef-6d8b6fea2929)
+
+Exponential Smoothing Filter:
+![SEoptvsReal](https://github.com/florian-chri/Dissertation-Florian-Christen/assets/163172948/4825dea2-dcca-4768-9820-ad6ca0c796ec)
 ## Project structure
 
-Alle .R Files der Filtertypen funktionieren vollkommen eigenständig.
+Alle .R Files der Filtertypen sind mit dem Ziel aufgebaut unabhängig zu funktionieren.
 Vorgeschlagene Struktur:
 
 Kalman Filter 2.R,
