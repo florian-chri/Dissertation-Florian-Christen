@@ -10,9 +10,6 @@
 
 **2nd Examiner:** Prof. Dr. Fabian
 
-[Insert here a figure explaining your approach or main results]
-
-![results](/result.png)
 
 ## Table of Content
 
