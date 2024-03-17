@@ -1,4 +1,8 @@
-# Title
+# Der Einfluss von Zeitreihenglättungsalgorithmen auf Forecastingergebnisse anhand des Kalman-Filters
+##
+The influence of time series smoothing on forecasting performance using a Kalman filter
+
+
 
 **Type:** Bachelor's Thesis
 
