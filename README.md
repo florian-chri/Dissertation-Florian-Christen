@@ -26,48 +26,28 @@
 
 ## Summary
 
-(Short summary of motivation, contributions and results)
+Der Code in diesem Reposirotry hat das Ziel zu untersuchen, wie sich ein voriges Filtern von Daten auf die Modellperformance auswirkt. Untersucht wurde dabei der Kalman Filter, ein Simple Exponential Smoothing Filter und eine Moving Average Filter. Als Forecastingmethoden wurde Moving Average Forecasting und Forecasting mittels Simpler Exponentieller Glättung verwendet.
+Als Datensatz diente ein aufbereiteter Hotel-PMS Export, welcher aus Datenschutzgründen nicht zur Verfügung gestellt werden kann. Die verwendete Performancemetrik ist MAPE.
 
-**Keywords**: xxx (give at least 5 keywords / phrases).
+**Keywords**: Kalman Filter, MA-Filter, SES-Filter, Forecasting, Time Series Models
 
 **Full text**: [include a link that points to the full text of your thesis]
 *Remark*: a thesis is about research. We believe in the [open science](https://en.wikipedia.org/wiki/Open_science) paradigm. Research results should be available to the public. Therefore, we expect dissertations to be shared publicly. Preferably, you publish your thesis via the [edoc-server of the Humboldt-Universität zu Berlin](https://edoc-info.hu-berlin.de/de/publizieren/andere). However, other sharing options, which ensure permanent availability, are also possible. <br> Exceptions from the default to share the full text of a thesis require the approval of the thesis supervisor.  
 
 ## Working with the repo
 
+
 ### Dependencies
 
-Which Python version is required? 
-
-Does a repository have information on dependencies or instructions on how to set up the environment?
+Alle Analysen wurden mit der R-Version 4.3.2 durchgeführt. Verwendete Packages sind in den Code-Files aufgeführt.
+Da keine Rohdaten mit zur Verfügung gestellt werden ist der erste Schritt die Datenaufbereitung durchzuführen. Dazu muss das entsprehende Einlesen der Daten und alle damit verbundenen Aufgaben im Sinne des Pre-Processing durchgeführt werden. Darunter zählen das aufteilen in einen Trainings und Testdatensatz, und das aufsetzen der Datenreihen als Zeitreihe. Der eingereichte Programmcode kann für diese Schritte als Leitfaden dienen.
 
 ### Setup
 
-[This is an example]
-
-1. Clone this repository
-
-2. Create an virtual environment and activate it
-```bash
-python -m venv thesis-env
-source thesis-env/bin/activate
-```
-
-3. Install requirements
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
 
 ## Reproducing results
 
-Describe steps how to reproduce your results.
-
-Here are some examples:
-- [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
-- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
-- [Simple & clear Example from Paperswithcode](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
-- [Example TensorFlow](https://github.com/NVlabs/selfsupervised-denoising)
+Um die Resultate in Form der Plots nachzustellen können die CSV-Dateien welche die tabellarische Grundlage für die Plots enthalten verwendet werden.
 
 ### Training code
 
@@ -82,7 +62,7 @@ Does a repository contain a script to calculate the performance of the trained m
 Does a repository provide free access to pretrained model weights?
 
 ## Results
-
+![Image]()
 Does a repository contain a table/plot of main results and a script to reproduce those results?
 
 ## Project structure
