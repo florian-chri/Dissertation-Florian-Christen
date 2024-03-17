@@ -36,30 +36,18 @@ Als Datensatz diente ein aufbereiteter Hotel-PMS Export, welcher aus Datenschutz
 
 ## Working with the repo
 
+Alle Analysen sind aufgeteilt auf die Filtermethode in drei .R files aufgeteilt. Damit alle .R files unabhängig voneinander funktionieren wurden die Bestandteile für das Laden und vorbereiten der Daten in allen Files aufgeführt.
+Die vorgeschlagene Anwendung hängt von dem unterliegenden Ziel ab. Sollte das Ziel im Testen der Filtermethode liegen ist die Empfehlung die benötigten bestandteile (Filter Methode und Loop zur Erstellung der gefilterten Dataframes) dafür zu kopieren und anzupassen.
+Liegt das Ziel darin andere Forecastingmethoden zu verwenden kann die Grundstruktur der Forecasting-loops verwendet werden.
 
 ### Dependencies
 
 Alle Analysen wurden mit der R-Version 4.3.2 durchgeführt. Verwendete Packages sind in den Code-Files aufgeführt.
 Da keine Rohdaten mit zur Verfügung gestellt werden ist der erste Schritt die Datenaufbereitung durchzuführen. Dazu muss das entsprehende Einlesen der Daten und alle damit verbundenen Aufgaben im Sinne des Pre-Processing durchgeführt werden. Darunter zählen das aufteilen in einen Trainings und Testdatensatz, und das aufsetzen der Datenreihen als Zeitreihe. Der eingereichte Programmcode kann für diese Schritte als Leitfaden dienen.
 
-### Setup
-
-
 ## Reproducing results
 
 Um die Resultate in Form der Plots nachzustellen können die CSV-Dateien welche die tabellarische Grundlage für die Plots enthalten verwendet werden.
-
-### Training code
-
-Does a repository contain a way to train/fit the model(s) described in the paper?
-
-### Evaluation code
-
-Does a repository contain a script to calculate the performance of the trained model(s) or run experiments on models?
-
-### Pretrained models
-
-Does a repository provide free access to pretrained model weights?
 
 ## Results
 ![Image](Exponential Smoother plot.png)
@@ -67,18 +55,3 @@ Does a repository provide free access to pretrained model weights?
 Does a repository contain a table/plot of main results and a script to reproduce those results?
 
 ## Project structure
-
-(Here is an example from SMART_HOME_N_ENERGY, [Appliance Level Load Prediction](https://github.com/Humboldt-WI/dissertations/tree/main/SMART_HOME_N_ENERGY/Appliance%20Level%20Load%20Prediction) dissertation)
-
-```bash
-├── README.md
-├── requirements.txt                                -- required libraries
-├── data                                            -- stores csv file 
-├── plots                                           -- stores image files
-└── src
-    ├── prepare_source_data.ipynb                   -- preprocesses data
-    ├── data_preparation.ipynb                      -- preparing datasets
-    ├── model_tuning.ipynb                          -- tuning functions
-    └── run_experiment.ipynb                        -- run experiments 
-    └── plots                                       -- plotting functions                 
-```
