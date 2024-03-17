@@ -63,6 +63,7 @@ Does a repository provide free access to pretrained model weights?
 
 ## Results
 ![Image](Exponential Smoother plot.png)
+
 Does a repository contain a table/plot of main results and a script to reproduce those results?
 
 ## Project structure
