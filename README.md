@@ -62,7 +62,7 @@ Does a repository contain a script to calculate the performance of the trained m
 Does a repository provide free access to pretrained model weights?
 
 ## Results
-![Image]()
+![Image](Exponential Smoother plot.png)
 Does a repository contain a table/plot of main results and a script to reproduce those results?
 
 ## Project structure
