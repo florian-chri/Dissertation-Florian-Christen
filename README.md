@@ -50,7 +50,7 @@ Da keine Rohdaten mit zur Verfügung gestellt werden ist der erste Schritt die D
 Um die Resultate in Form der Plots nachzustellen können die CSV-Dateien welche die tabellarische Grundlage für die Plots enthalten verwendet werden.
 
 ## Results
-![Image](images/Exponential Smoother plot.png)
+![Image](Exponential Smoother plot.png)
 
 Does a repository contain a table/plot of main results and a script to reproduce those results?
 
