@@ -54,8 +54,17 @@ Da keine Rohdaten mit zur Verfügung gestellt werden ist der erste Schritt die D
 Um die Resultate in Form der Plots nachzustellen können die CSV-Dateien welche die tabellarische Grundlage für die Plots enthalten verwendet werden.
 
 ## Results
-![Image](Kalman Filter MA Plot.png)
 
-Does a repository contain a table/plot of main results and a script to reproduce those results?
+Vergleich der MAPE der ungeglätteten Zeitreihe mit der MAPE im Optimum.
+
+	                            Kalman Filter	            MA Filter	            SES Filter
+SES Forecasting ungeglättet	    45,19099	                45,19099	            45,19099
+SES Forecasting Optimum	        42,46486	                42,47202	            42,46664
+Performancegewinn	            2,72613	                    2,71897	                2,72435
+MA Forecasting ungeglättet	    52,97714	                52,97714	            52,97714
+MA Forecasting Optimum	        52,21382	                52.25836	            52,19513
+Performancegewinn	            0,76332	                    0,71878	                0,78183
+
+Die graphischen Repräsentationen der MAPE sind im Repository enthalten.
 
 ## Project structure
