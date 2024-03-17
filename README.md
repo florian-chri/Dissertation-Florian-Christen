@@ -54,7 +54,7 @@ Da keine Rohdaten mit zur Verfügung gestellt werden ist der erste Schritt die D
 Um die Resultate in Form der Plots nachzustellen können die CSV-Dateien welche die tabellarische Grundlage für die Plots enthalten verwendet werden.
 
 ## Results
-![Image](ExponentialSmootherplot.png)
+![Image](images/MAFilterESFC.png)
 
 Vergleich der MAPE der ungeglätteten Zeitreihe mit der MAPE im Optimum.
 
